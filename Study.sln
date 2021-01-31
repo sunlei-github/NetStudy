@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Socket", "Socket", "{A2496268-D3B0-4AF1-A385-0D640469154F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketClient", "SocketClient\SocketClient.csproj", "{2184E902-D9B2-438A-9CA9-031821D520FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketService", "SocketService\SocketService.csproj", "{DB86D055-8C45-446A-AAB8-821BE7D33DA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2184E902-D9B2-438A-9CA9-031821D520FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2184E902-D9B2-438A-9CA9-031821D520FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2184E902-D9B2-438A-9CA9-031821D520FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2184E902-D9B2-438A-9CA9-031821D520FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB86D055-8C45-446A-AAB8-821BE7D33DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB86D055-8C45-446A-AAB8-821BE7D33DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB86D055-8C45-446A-AAB8-821BE7D33DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB86D055-8C45-446A-AAB8-821BE7D33DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2184E902-D9B2-438A-9CA9-031821D520FE} = {A2496268-D3B0-4AF1-A385-0D640469154F}
+		{DB86D055-8C45-446A-AAB8-821BE7D33DA6} = {A2496268-D3B0-4AF1-A385-0D640469154F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B79D3D0-8781-4722-9C2B-7667A5385E62}
+	EndGlobalSection
+EndGlobal
