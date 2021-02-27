@@ -5,9 +5,22 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Socket", "Socket", "{A2496268-D3B0-4AF1-A385-0D640469154F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketClient", "SocketClient\SocketClient.csproj", "{2184E902-D9B2-438A-9CA9-031821D520FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocketClient", "SocketClient\SocketClient.csproj", "{2184E902-D9B2-438A-9CA9-031821D520FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketService", "SocketService\SocketService.csproj", "{DB86D055-8C45-446A-AAB8-821BE7D33DA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocketService", "SocketService\SocketService.csproj", "{DB86D055-8C45-446A-AAB8-821BE7D33DA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservice", "Microservice", "{81810253-49BA-448C-AA14-E01C560F85E8}"
+	ProjectSection(SolutionItems) = preProject
+		微服务.md = 微服务.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student_Microservice", "Student_Microservice\Student_Microservice.csproj", "{A20E0A58-E5E8-44E7-ADDA-308D17ABF019}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classroom_Microservice", "Classroom_Microservice\Classroom_Microservice.csproj", "{868724D6-00EC-4B3F-B2D8-AEB90C01BEEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentClassroom_AggregationMicroservice", "StudentClassroom_AggregationMicroservice\StudentClassroom_AggregationMicroservice.csproj", "{3E485532-492C-49C2-BD33-BC3C77759818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common_Microservice", "Common_Microservice\Common_Microservice.csproj", "{8AE01A7E-AE68-46ED-B9C3-F645E74F65B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +36,22 @@ Global
 		{DB86D055-8C45-446A-AAB8-821BE7D33DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB86D055-8C45-446A-AAB8-821BE7D33DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB86D055-8C45-446A-AAB8-821BE7D33DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A20E0A58-E5E8-44E7-ADDA-308D17ABF019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20E0A58-E5E8-44E7-ADDA-308D17ABF019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20E0A58-E5E8-44E7-ADDA-308D17ABF019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20E0A58-E5E8-44E7-ADDA-308D17ABF019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{868724D6-00EC-4B3F-B2D8-AEB90C01BEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868724D6-00EC-4B3F-B2D8-AEB90C01BEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868724D6-00EC-4B3F-B2D8-AEB90C01BEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868724D6-00EC-4B3F-B2D8-AEB90C01BEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E485532-492C-49C2-BD33-BC3C77759818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E485532-492C-49C2-BD33-BC3C77759818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E485532-492C-49C2-BD33-BC3C77759818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E485532-492C-49C2-BD33-BC3C77759818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AE01A7E-AE68-46ED-B9C3-F645E74F65B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE01A7E-AE68-46ED-B9C3-F645E74F65B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE01A7E-AE68-46ED-B9C3-F645E74F65B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE01A7E-AE68-46ED-B9C3-F645E74F65B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +59,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2184E902-D9B2-438A-9CA9-031821D520FE} = {A2496268-D3B0-4AF1-A385-0D640469154F}
 		{DB86D055-8C45-446A-AAB8-821BE7D33DA6} = {A2496268-D3B0-4AF1-A385-0D640469154F}
+		{A20E0A58-E5E8-44E7-ADDA-308D17ABF019} = {81810253-49BA-448C-AA14-E01C560F85E8}
+		{868724D6-00EC-4B3F-B2D8-AEB90C01BEEB} = {81810253-49BA-448C-AA14-E01C560F85E8}
+		{3E485532-492C-49C2-BD33-BC3C77759818} = {81810253-49BA-448C-AA14-E01C560F85E8}
+		{8AE01A7E-AE68-46ED-B9C3-F645E74F65B8} = {81810253-49BA-448C-AA14-E01C560F85E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B79D3D0-8781-4722-9C2B-7667A5385E62}
