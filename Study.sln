@@ -39,11 +39,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacServices", "Services
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacWeb", "AutofacWeb\AutofacWeb.csproj", "{9298A086-7789-4280-8B9B-6AD8CBB713D7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B290F4BF-258B-4C03-9B9E-7DDC225B6DB5}"
-	ProjectSection(SolutionItems) = preProject
-		.gitignore = .gitignore
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
