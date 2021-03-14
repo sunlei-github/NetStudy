@@ -32,6 +32,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomCache", "CustomCache\CustomCache.csproj", "{9A409D68-E4AE-44C1-BE93-A7F4823ED8A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Autofac", "Autofac", "{494FA18E-4AE9-429F-A48F-DFB7EDDCED4F}"
+	ProjectSection(SolutionItems) = preProject
+		AOP.md = AOP.md
+		IOC.md = IOC.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacIServices", "IServices\AutofacIServices.csproj", "{B22740FA-4E9E-4876-BD09-A538B1A2DC65}"
 EndProject
