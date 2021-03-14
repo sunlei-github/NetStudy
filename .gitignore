@@ -1,9 +1,6 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
+ /bin/*
+ /obj/*
 
-# IDEs and editors
-.vs/
-obj/
-bin/
-aspnet-core/src/RepositoryManager.Web.Host/App_Data/Logs/
-aspnet-core/src/RepositoryManager.Web.Mvc/App_Data/Logs/
-aspnet-core/src/RepositoryManager.Migrator/Logs/Logs.txt
+ *.dll
+
+ *.log

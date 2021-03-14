@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "F5FPyWCniA4eB6Z9PXKqB/zY65wrvaywC4NeaFqllldNvfokvTgnPjJVOMaN05YCMq3VN+hSovWWgwnmR8K4Yg==",
+  "success": true,
+  "projectFilePath": "D:\\学习\\vsProject\\Study\\NetStudy\\Web\\AutofacWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

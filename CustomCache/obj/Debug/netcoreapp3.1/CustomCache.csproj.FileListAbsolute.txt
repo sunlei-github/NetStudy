@@ -1,0 +1,13 @@
+D:\学习\vsProject\Study\NetStudy\CustomCache\bin\Debug\netcoreapp3.1\CustomCache.exe
+D:\学习\vsProject\Study\NetStudy\CustomCache\bin\Debug\netcoreapp3.1\CustomCache.deps.json
+D:\学习\vsProject\Study\NetStudy\CustomCache\bin\Debug\netcoreapp3.1\CustomCache.runtimeconfig.json
+D:\学习\vsProject\Study\NetStudy\CustomCache\bin\Debug\netcoreapp3.1\CustomCache.runtimeconfig.dev.json
+D:\学习\vsProject\Study\NetStudy\CustomCache\bin\Debug\netcoreapp3.1\CustomCache.dll
+D:\学习\vsProject\Study\NetStudy\CustomCache\bin\Debug\netcoreapp3.1\CustomCache.pdb
+D:\学习\vsProject\Study\NetStudy\CustomCache\obj\Debug\netcoreapp3.1\CustomCache.csprojAssemblyReference.cache
+D:\学习\vsProject\Study\NetStudy\CustomCache\obj\Debug\netcoreapp3.1\CustomCache.AssemblyInfoInputs.cache
+D:\学习\vsProject\Study\NetStudy\CustomCache\obj\Debug\netcoreapp3.1\CustomCache.AssemblyInfo.cs
+D:\学习\vsProject\Study\NetStudy\CustomCache\obj\Debug\netcoreapp3.1\CustomCache.csproj.CoreCompileInputs.cache
+D:\学习\vsProject\Study\NetStudy\CustomCache\obj\Debug\netcoreapp3.1\CustomCache.dll
+D:\学习\vsProject\Study\NetStudy\CustomCache\obj\Debug\netcoreapp3.1\CustomCache.pdb
+D:\学习\vsProject\Study\NetStudy\CustomCache\obj\Debug\netcoreapp3.1\CustomCache.genruntimeconfig.cache
