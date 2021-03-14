@@ -39,6 +39,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacServices", "Services
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacWeb", "AutofacWeb\AutofacWeb.csproj", "{9298A086-7789-4280-8B9B-6AD8CBB713D7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log4Net", "Log4Net", "{02CBAA91-64A0-4AF9-935B-4886319DB5B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4NetWeb", "Log4NetWeb\Log4NetWeb.csproj", "{AB1B9210-BCB8-4F33-8EF9-9FC313CDADB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7D4A471-D287-4A5E-98A2-0C5A5EDCAF9E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +98,10 @@ Global
 		{9298A086-7789-4280-8B9B-6AD8CBB713D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9298A086-7789-4280-8B9B-6AD8CBB713D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9298A086-7789-4280-8B9B-6AD8CBB713D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1B9210-BCB8-4F33-8EF9-9FC313CDADB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1B9210-BCB8-4F33-8EF9-9FC313CDADB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1B9210-BCB8-4F33-8EF9-9FC313CDADB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1B9210-BCB8-4F33-8EF9-9FC313CDADB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -105,6 +118,7 @@ Global
 		{B22740FA-4E9E-4876-BD09-A538B1A2DC65} = {494FA18E-4AE9-429F-A48F-DFB7EDDCED4F}
 		{0358DD9D-4299-4711-BEDF-EF3DA8F0850F} = {494FA18E-4AE9-429F-A48F-DFB7EDDCED4F}
 		{9298A086-7789-4280-8B9B-6AD8CBB713D7} = {494FA18E-4AE9-429F-A48F-DFB7EDDCED4F}
+		{AB1B9210-BCB8-4F33-8EF9-9FC313CDADB8} = {02CBAA91-64A0-4AF9-935B-4886319DB5B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B79D3D0-8781-4722-9C2B-7667A5385E62}

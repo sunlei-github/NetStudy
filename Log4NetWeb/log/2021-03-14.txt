@@ -1,0 +1,35 @@
+﻿INFO  2021-03-14 17:17:01,964 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2021-03-14 17:17:01,978 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-03-14 17:17:01,979 [1    ] Microsoft.Hosting.Lifetime               - Content root path: D:\学习\vsProject\Study\NetStudy\Log4NetWeb
+WARN  2021-03-14 17:17:02,049 [8    ] Log4NetWeb.Controllers.HomeController    - ILogger记录日志
+INFO  2021-03-14 17:17:02,050 [8    ] Log4NetWeb.Controllers.HomeController    - ILoggerFactory记录日志
+INFO  2021-03-14 17:23:54,434 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2021-03-14 17:23:54,447 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-03-14 17:23:54,449 [1    ] Microsoft.Hosting.Lifetime               - Content root path: D:\学习\vsProject\Study\NetStudy\Log4NetWeb
+WARN  2021-03-14 17:23:54,547 [4    ] Log4NetWeb.Controllers.HomeController    - ILogger记录日志
+INFO  2021-03-14 17:23:54,549 [4    ] Log4NetWeb.Controllers.HomeController    - ILoggerFactory记录日志
+INFO  2021-03-14 17:25:43,743 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2021-03-14 17:25:43,755 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-03-14 17:25:43,758 [1    ] Microsoft.Hosting.Lifetime               - Content root path: D:\学习\vsProject\Study\NetStudy\Log4NetWeb
+WARN  2021-03-14 17:25:43,827 [8    ] Log4NetWeb.Controllers.HomeController    - ILogger记录日志
+INFO  2021-03-14 17:25:43,829 [8    ] Log4NetWeb.Controllers.HomeController    - ILoggerFactory记录日志
+INFO  2021-03-14 17:27:19,608 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2021-03-14 17:27:19,621 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-03-14 17:27:19,623 [1    ] Microsoft.Hosting.Lifetime               - Content root path: D:\学习\vsProject\Study\NetStudy\Log4NetWeb
+WARN  2021-03-14 17:27:19,702 [4    ] Log4NetWeb.Controllers.HomeController    - ILogger记录日志
+INFO  2021-03-14 17:27:19,705 [4    ] Log4NetWeb.Controllers.HomeController    - ILoggerFactory记录日志
+aaa
+INFO  2021-03-14 17:28:49,386 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\ASUS\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2021-03-14 17:28:49,636 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2021-03-14 17:28:49,644 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2021-03-14 17:28:49,647 [1    ] Microsoft.Hosting.Lifetime               - Content root path: D:\学习\vsProject\Study\NetStudy\Log4NetWeb
+INFO  2021-03-14 17:28:49,677 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:5924/  
+INFO  2021-03-14 17:28:49,702 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Log4NetWeb.Controllers.HomeController.Index (Log4NetWeb)'
+INFO  2021-03-14 17:28:49,746 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Log4NetWeb.Controllers.HomeController (Log4NetWeb).
+WARN  2021-03-14 17:28:49,756 [4    ] Log4NetWeb.Controllers.HomeController    - ILogger记录日志
+INFO  2021-03-14 17:28:49,760 [4    ] Log4NetWeb.Controllers.HomeController    - ILoggerFactory记录日志
+INFO  2021-03-14 17:28:49,780 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2021-03-14 17:28:49,881 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 103.7744ms.
+INFO  2021-03-14 17:28:49,884 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Log4NetWeb.Controllers.HomeController.Index (Log4NetWeb) in 134.8597ms
+INFO  2021-03-14 17:28:49,887 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Log4NetWeb.Controllers.HomeController.Index (Log4NetWeb)'
+INFO  2021-03-14 17:28:49,891 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 214.928ms 200 text/html; charset=utf-8
