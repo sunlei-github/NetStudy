@@ -41,16 +41,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacIServices", "IServic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacServices", "Services\AutofacServices.csproj", "{0358DD9D-4299-4711-BEDF-EF3DA8F0850F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacWeb", "AutofacWeb\AutofacWeb.csproj", "{9298A086-7789-4280-8B9B-6AD8CBB713D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacWeb", "AutofacWeb\AutofacWeb.csproj", "{9298A086-7789-4280-8B9B-6AD8CBB713D7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log4Net", "Log4Net", "{02CBAA91-64A0-4AF9-935B-4886319DB5B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4NetWeb", "Log4NetWeb\Log4NetWeb.csproj", "{AB1B9210-BCB8-4F33-8EF9-9FC313CDADB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Log4NetWeb", "Log4NetWeb\Log4NetWeb.csproj", "{AB1B9210-BCB8-4F33-8EF9-9FC313CDADB8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7D4A471-D287-4A5E-98A2-0C5A5EDCAF9E}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SuperSocket", "SuperSocket", "{67AF768D-814E-4CA7-B849-8A4C20CD205B}"
+	ProjectSection(SolutionItems) = preProject
+		SuperSocket.md = SuperSocket.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSocketService", "SuperSocketService\SuperSocketService.csproj", "{C5DDE3F5-C0B9-46B2-8B1F-C90E0D336261}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -106,6 +113,10 @@ Global
 		{AB1B9210-BCB8-4F33-8EF9-9FC313CDADB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB1B9210-BCB8-4F33-8EF9-9FC313CDADB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB1B9210-BCB8-4F33-8EF9-9FC313CDADB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5DDE3F5-C0B9-46B2-8B1F-C90E0D336261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5DDE3F5-C0B9-46B2-8B1F-C90E0D336261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5DDE3F5-C0B9-46B2-8B1F-C90E0D336261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5DDE3F5-C0B9-46B2-8B1F-C90E0D336261}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +134,7 @@ Global
 		{0358DD9D-4299-4711-BEDF-EF3DA8F0850F} = {494FA18E-4AE9-429F-A48F-DFB7EDDCED4F}
 		{9298A086-7789-4280-8B9B-6AD8CBB713D7} = {494FA18E-4AE9-429F-A48F-DFB7EDDCED4F}
 		{AB1B9210-BCB8-4F33-8EF9-9FC313CDADB8} = {02CBAA91-64A0-4AF9-935B-4886319DB5B4}
+		{C5DDE3F5-C0B9-46B2-8B1F-C90E0D336261} = {67AF768D-814E-4CA7-B849-8A4C20CD205B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B79D3D0-8781-4722-9C2B-7667A5385E62}
