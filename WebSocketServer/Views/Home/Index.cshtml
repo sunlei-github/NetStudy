@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <input id="userName" type="text" />
+    <input id="conn" type="button" value="连接" />
+    <input id="close" type="button" value="关闭" />
+    <span id="tips"></span>
+    <input id="content" type="text" />
+    <input id="send" type="button" value="发送" />
+</div>
+<div id="view">
+    <ul></ul>
+</div>
+
+<script src="~/Scripts/jquery-3.4.1.js"></script>
+<script type="text/javascript">
+
+    //如果是WebSocket 则必须使用ws 协议
+    var wsUrl = "ws://localhost:8552/Home/WebSocket";
+    var socket = null;
+
+    function conn(){
+        var conUrl = wsUrl + "?name=" + $("#userName").val();
+        console.log(conUrl);
+
+        socket = new WebSocket(conUrl);
+
+        socket.onopen = function () {
+            $("#tips").html("链接以打开");
+        }
+
+        socket.onmessage = function (evt) {
+            debugger;
+            $("#view ul").append("<li>" + evt.data + "</li>");
+        }
+
+        socket.onerror = function (evt) {
+            $("#tips").html("链接异常");
+           // alert("连接异常时触发");
+        }
+
+        socket.onclose = function (evt) {
+            $("#tips").html("链接以关闭");
+            //alert("连接关闭时触发");
+        }
+    }
+
+    $(function () {
+        //连接
+        $("#conn").click(function () {
+            conn();
+        })
+
+        //发送信息
+        $("#send").click(function () {
+            console.log(socket);
+            if (socket.readyState == WebSocket.OPEN) {
+                socket.send($("#content").val());
+            }
+            else {
+                alert("链接已经断开");
+            }
+        })
+
+        //连接关闭
+        $("#close").click(function () {
+            socket.close();
+        })
+
+    })
+</script>

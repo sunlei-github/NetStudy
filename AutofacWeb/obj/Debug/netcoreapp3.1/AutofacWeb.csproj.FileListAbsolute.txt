@@ -1,10 +1,3 @@
-D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\AutofacWeb.csprojAssemblyReference.cache
-D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\AutofacWeb.AssemblyInfoInputs.cache
-D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\AutofacWeb.AssemblyInfo.cs
-D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\AutofacWeb.csproj.CoreCompileInputs.cache
-D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\AutofacWeb.MvcApplicationPartsAssemblyInfo.cache
-D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\AutofacWeb.RazorAssemblyInfo.cache
-D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\AutofacWeb.RazorAssemblyInfo.cs
 D:\学习\vsProject\Study\NetStudy\AutofacWeb\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\学习\vsProject\Study\NetStudy\AutofacWeb\bin\Debug\netcoreapp3.1\appsettings.json
 D:\学习\vsProject\Study\NetStudy\AutofacWeb\bin\Debug\netcoreapp3.1\libman.json
@@ -18,11 +11,20 @@ D:\学习\vsProject\Study\NetStudy\AutofacWeb\bin\Debug\netcoreapp3.1\AutofacWeb
 D:\学习\vsProject\Study\NetStudy\AutofacWeb\bin\Debug\netcoreapp3.1\AutofacWeb.Views.pdb
 D:\学习\vsProject\Study\NetStudy\AutofacWeb\bin\Debug\netcoreapp3.1\Autofac.dll
 D:\学习\vsProject\Study\NetStudy\AutofacWeb\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+D:\学习\vsProject\Study\NetStudy\AutofacWeb\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+D:\学习\vsProject\Study\NetStudy\AutofacWeb\bin\Debug\netcoreapp3.1\Castle.Core.dll
 D:\学习\vsProject\Study\NetStudy\AutofacWeb\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 D:\学习\vsProject\Study\NetStudy\AutofacWeb\bin\Debug\netcoreapp3.1\AutofacIServices.dll
 D:\学习\vsProject\Study\NetStudy\AutofacWeb\bin\Debug\netcoreapp3.1\AutofacServices.dll
 D:\学习\vsProject\Study\NetStudy\AutofacWeb\bin\Debug\netcoreapp3.1\AutofacIServices.pdb
 D:\学习\vsProject\Study\NetStudy\AutofacWeb\bin\Debug\netcoreapp3.1\AutofacServices.pdb
+D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\AutofacWeb.csprojAssemblyReference.cache
+D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\AutofacWeb.AssemblyInfoInputs.cache
+D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\AutofacWeb.AssemblyInfo.cs
+D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\AutofacWeb.csproj.CoreCompileInputs.cache
+D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\AutofacWeb.MvcApplicationPartsAssemblyInfo.cache
+D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\AutofacWeb.RazorAssemblyInfo.cache
+D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\AutofacWeb.RazorAssemblyInfo.cs
 D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\staticwebassets\AutofacWeb.StaticWebAssets.Manifest.cache
 D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\staticwebassets\AutofacWeb.StaticWebAssets.xml
 D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\scopedcss\bundle\AutofacWeb.styles.css
@@ -43,5 +45,3 @@ D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\AutofacWeb
 D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\AutofacWeb.dll
 D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\AutofacWeb.pdb
 D:\学习\vsProject\Study\NetStudy\AutofacWeb\obj\Debug\netcoreapp3.1\AutofacWeb.genruntimeconfig.cache
-D:\学习\vsProject\Study\NetStudy\AutofacWeb\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
-D:\学习\vsProject\Study\NetStudy\AutofacWeb\bin\Debug\netcoreapp3.1\Castle.Core.dll

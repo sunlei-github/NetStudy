@@ -1,7 +1,6 @@
 D:\学习\vsProject\Study\NetStudy\Common_Microservice\bin\Debug\netstandard2.0\Common_Microservice.deps.json
 D:\学习\vsProject\Study\NetStudy\Common_Microservice\bin\Debug\netstandard2.0\Common_Microservice.dll
 D:\学习\vsProject\Study\NetStudy\Common_Microservice\bin\Debug\netstandard2.0\Common_Microservice.pdb
-D:\学习\vsProject\Study\NetStudy\Common_Microservice\obj\Debug\netstandard2.0\Common_Microservice.csprojAssemblyReference.cache
 D:\学习\vsProject\Study\NetStudy\Common_Microservice\obj\Debug\netstandard2.0\Common_Microservice.AssemblyInfoInputs.cache
 D:\学习\vsProject\Study\NetStudy\Common_Microservice\obj\Debug\netstandard2.0\Common_Microservice.AssemblyInfo.cs
 D:\学习\vsProject\Study\NetStudy\Common_Microservice\obj\Debug\netstandard2.0\Common_Microservice.csproj.CoreCompileInputs.cache
