@@ -63,6 +63,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebSocket", "WebSocket", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketServer", "WebSocketServer\WebSocketServer.csproj", "{0A97FA20-F9E8-4CDD-99BE-9173BFA1FC86}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "其他笔记", "其他笔记", "{9594BF31-20C1-44DD-9F60-B556B548D938}"
+	ProjectSection(SolutionItems) = preProject
+		Docker.md = Docker.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
