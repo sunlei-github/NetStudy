@@ -6,3 +6,4 @@ D:\学习\vsProject\Study\NetStudy\IServices\obj\Debug\netstandard2.0\AutofacISe
 D:\学习\vsProject\Study\NetStudy\IServices\obj\Debug\netstandard2.0\AutofacIServices.csproj.CoreCompileInputs.cache
 D:\学习\vsProject\Study\NetStudy\IServices\obj\Debug\netstandard2.0\AutofacIServices.dll
 D:\学习\vsProject\Study\NetStudy\IServices\obj\Debug\netstandard2.0\AutofacIServices.pdb
+D:\学习\vsProject\Study\NetStudy\IServices\obj\Debug\netstandard2.0\AutofacIServices.csprojAssemblyReference.cache

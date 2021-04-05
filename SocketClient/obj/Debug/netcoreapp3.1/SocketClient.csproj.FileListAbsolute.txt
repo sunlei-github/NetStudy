@@ -22,3 +22,4 @@ D:\学习\vsProject\Study\NetStudy\SocketClient\obj\Debug\netcoreapp3.1\SocketCl
 D:\学习\vsProject\Study\NetStudy\SocketClient\obj\Debug\netcoreapp3.1\SocketClient.dll
 D:\学习\vsProject\Study\NetStudy\SocketClient\obj\Debug\netcoreapp3.1\SocketClient.pdb
 D:\学习\vsProject\Study\NetStudy\SocketClient\obj\Debug\netcoreapp3.1\SocketClient.genruntimeconfig.cache
+D:\学习\vsProject\Study\NetStudy\SocketClient\obj\Debug\netcoreapp3.1\SocketClient.csprojAssemblyReference.cache

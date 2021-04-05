@@ -26,7 +26,7 @@ namespace WebSocketServer.Controllers
                         IsLogin = false,
                         OfficeMessage = new List<string>(),
                         UserName = users[i],
-                        webSocket = null
+                        WebSocket = null
                     });
                 }
             }
@@ -72,7 +72,7 @@ namespace WebSocketServer.Controllers
             else
             {
                 userModel.IsLogin = true;
-                userModel.webSocket = webSocket;
+                userModel.WebSocket = webSocket;
 
                 while (true)
                 {
@@ -103,7 +103,7 @@ namespace WebSocketServer.Controllers
                             ArraySegment<byte> responceSegment = new ArraySegment<byte>(byteArr, 0, byteArr.Length);
                             foreach (var item in HomeController.webSocketMsg.Values.Where(c => c.IsLogin && c.UserName != userModel.UserName))
                             {
-                                await item.webSocket.SendAsync(responceSegment, System.Net.WebSockets.WebSocketMessageType.Text, true, new System.Threading.CancellationToken());
+                                await item.WebSocket.SendAsync(responceSegment, System.Net.WebSockets.WebSocketMessageType.Text, true, new System.Threading.CancellationToken());
                             }
 
                             await webSocket.CloseAsync(WebSocketCloseStatus.NormalClosure, $"{userModel.UserName}退出聊天室", new System.Threading.CancellationToken());
@@ -126,12 +126,12 @@ namespace WebSocketServer.Controllers
 
                         foreach (var item in HomeController.webSocketMsg.Values)
                         {
-                            if (item.IsLogin && item.webSocket != null)
+                            if (item.IsLogin && item.WebSocket != null)
                             {
                                 byte[] byteArr = Encoding.UTF8.GetBytes(msg);
                                 ArraySegment<byte> responceSegment = new ArraySegment<byte>(byteArr, 0, byteArr.Length);
 
-                                await item.webSocket.SendAsync(responceSegment, System.Net.WebSockets.WebSocketMessageType.Text, true, new System.Threading.CancellationToken());
+                                await item.WebSocket.SendAsync(responceSegment, System.Net.WebSockets.WebSocketMessageType.Text, true, new System.Threading.CancellationToken());
                             }
                         }
                     }
@@ -179,7 +179,7 @@ namespace WebSocketServer.Controllers
             /// <summary>
             /// 用户的WebSocket 连接通道
             /// </summary>
-            public WebSocket webSocket { set; get; }
+            public WebSocket WebSocket { set; get; }
 
             /// <summary>
             /// 离线消息
