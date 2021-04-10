@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TemplateMethodPattern
+namespace FactoryMethodPattern
 {
     /// <summary>
     /// 中国人工厂
