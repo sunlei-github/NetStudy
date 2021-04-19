@@ -67,6 +67,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "其他笔记", "其他笔记", "{9594BF31-20C1-44DD-9F60-B556B548D938}"
 	ProjectSection(SolutionItems) = preProject
 		Docker.md = Docker.md
+		数据结构.md = 数据结构.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GOF", "GOF", "{703104D2-1DD1-49AE-813B-4A6C78F6CC55}"
@@ -109,7 +110,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern", "StatePatter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{10FECD94-50C6-4609-AADA-D75491D79F2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoPattern", "MemoPattern\MemoPattern.csproj", "{48892C15-F542-4156-B449-82874D0309B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoPattern", "MemoPattern\MemoPattern.csproj", "{48892C15-F542-4156-B449-82874D0309B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompsitePattern", "CompsitePattern\CompsitePattern.csproj", "{0725F719-C274-45B5-A180-AA8DA3450F13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -229,6 +232,10 @@ Global
 		{48892C15-F542-4156-B449-82874D0309B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48892C15-F542-4156-B449-82874D0309B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48892C15-F542-4156-B449-82874D0309B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0725F719-C274-45B5-A180-AA8DA3450F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0725F719-C274-45B5-A180-AA8DA3450F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0725F719-C274-45B5-A180-AA8DA3450F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0725F719-C274-45B5-A180-AA8DA3450F13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -265,6 +272,7 @@ Global
 		{BC55340E-DB40-4E2F-A6FC-4958C19FE05D} = {F58A6DBD-6FAD-4171-9465-9FEDA8558A11}
 		{10FECD94-50C6-4609-AADA-D75491D79F2F} = {870C5017-56D2-448B-95FE-FB577FBF3FBD}
 		{48892C15-F542-4156-B449-82874D0309B3} = {F58A6DBD-6FAD-4171-9465-9FEDA8558A11}
+		{0725F719-C274-45B5-A180-AA8DA3450F13} = {870C5017-56D2-448B-95FE-FB577FBF3FBD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B79D3D0-8781-4722-9C2B-7667A5385E62}
