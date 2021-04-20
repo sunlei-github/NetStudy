@@ -112,7 +112,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoPattern", "MemoPattern\MemoPattern.csproj", "{48892C15-F542-4156-B449-82874D0309B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompsitePattern", "CompsitePattern\CompsitePattern.csproj", "{0725F719-C274-45B5-A180-AA8DA3450F13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompsitePattern", "CompsitePattern\CompsitePattern.csproj", "{0725F719-C274-45B5-A180-AA8DA3450F13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{27FB0DDA-9EBE-4C3B-9885-D120A62B29E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -236,6 +238,10 @@ Global
 		{0725F719-C274-45B5-A180-AA8DA3450F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0725F719-C274-45B5-A180-AA8DA3450F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0725F719-C274-45B5-A180-AA8DA3450F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27FB0DDA-9EBE-4C3B-9885-D120A62B29E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FB0DDA-9EBE-4C3B-9885-D120A62B29E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FB0DDA-9EBE-4C3B-9885-D120A62B29E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FB0DDA-9EBE-4C3B-9885-D120A62B29E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -273,6 +279,7 @@ Global
 		{10FECD94-50C6-4609-AADA-D75491D79F2F} = {870C5017-56D2-448B-95FE-FB577FBF3FBD}
 		{48892C15-F542-4156-B449-82874D0309B3} = {F58A6DBD-6FAD-4171-9465-9FEDA8558A11}
 		{0725F719-C274-45B5-A180-AA8DA3450F13} = {870C5017-56D2-448B-95FE-FB577FBF3FBD}
+		{27FB0DDA-9EBE-4C3B-9885-D120A62B29E0} = {F58A6DBD-6FAD-4171-9465-9FEDA8558A11}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B79D3D0-8781-4722-9C2B-7667A5385E62}
