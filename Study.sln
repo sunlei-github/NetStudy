@@ -118,7 +118,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorPattern", "Iterator
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{A4AAFEBB-BA61-40F7-B6D2-4096EC871ED2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{827EEEDE-5249-4077-A7F0-8863846EB9AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{827EEEDE-5249-4077-A7F0-8863846EB9AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{58C31CB5-CF96-4FB1-AFD4-5369C2F08CE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -254,6 +256,10 @@ Global
 		{827EEEDE-5249-4077-A7F0-8863846EB9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{827EEEDE-5249-4077-A7F0-8863846EB9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{827EEEDE-5249-4077-A7F0-8863846EB9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58C31CB5-CF96-4FB1-AFD4-5369C2F08CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C31CB5-CF96-4FB1-AFD4-5369C2F08CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C31CB5-CF96-4FB1-AFD4-5369C2F08CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C31CB5-CF96-4FB1-AFD4-5369C2F08CE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -294,6 +300,7 @@ Global
 		{27FB0DDA-9EBE-4C3B-9885-D120A62B29E0} = {F58A6DBD-6FAD-4171-9465-9FEDA8558A11}
 		{A4AAFEBB-BA61-40F7-B6D2-4096EC871ED2} = {6810964E-C03C-4AF4-B974-A45D895BB6EA}
 		{827EEEDE-5249-4077-A7F0-8863846EB9AB} = {870C5017-56D2-448B-95FE-FB577FBF3FBD}
+		{58C31CB5-CF96-4FB1-AFD4-5369C2F08CE3} = {703104D2-1DD1-49AE-813B-4A6C78F6CC55}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B79D3D0-8781-4722-9C2B-7667A5385E62}
