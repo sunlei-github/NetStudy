@@ -124,7 +124,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "CommandPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{CD5F8CD0-D3D0-4E48-9D64-80117D2D0D72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "MediatorPattern\MediatorPattern.csproj", "{C6EF75B5-2743-4A97-9A3B-878A9F76D683}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorPattern", "MediatorPattern\MediatorPattern.csproj", "{C6EF75B5-2743-4A97-9A3B-878A9F76D683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightPattern", "FlyweightPattern\FlyweightPattern.csproj", "{2436F10C-745E-47F3-8EDC-F665CEA15EA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -272,6 +274,10 @@ Global
 		{C6EF75B5-2743-4A97-9A3B-878A9F76D683}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6EF75B5-2743-4A97-9A3B-878A9F76D683}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6EF75B5-2743-4A97-9A3B-878A9F76D683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2436F10C-745E-47F3-8EDC-F665CEA15EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2436F10C-745E-47F3-8EDC-F665CEA15EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2436F10C-745E-47F3-8EDC-F665CEA15EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2436F10C-745E-47F3-8EDC-F665CEA15EA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -315,6 +321,7 @@ Global
 		{58C31CB5-CF96-4FB1-AFD4-5369C2F08CE3} = {870C5017-56D2-448B-95FE-FB577FBF3FBD}
 		{CD5F8CD0-D3D0-4E48-9D64-80117D2D0D72} = {870C5017-56D2-448B-95FE-FB577FBF3FBD}
 		{C6EF75B5-2743-4A97-9A3B-878A9F76D683} = {F58A6DBD-6FAD-4171-9465-9FEDA8558A11}
+		{2436F10C-745E-47F3-8EDC-F665CEA15EA8} = {870C5017-56D2-448B-95FE-FB577FBF3FBD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B79D3D0-8781-4722-9C2B-7667A5385E62}
