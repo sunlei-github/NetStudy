@@ -33,7 +33,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomCache", "CustomCache\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Autofac", "Autofac", "{494FA18E-4AE9-429F-A48F-DFB7EDDCED4F}"
 	ProjectSection(SolutionItems) = preProject
-		.gitignore = .gitignore
 		AOP.md = AOP.md
 		IOC.md = IOC.md
 	EndProjectSection
@@ -67,6 +66,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "其他笔记", "其他笔记", "{9594BF31-20C1-44DD-9F60-B556B548D938}"
 	ProjectSection(SolutionItems) = preProject
 		Docker.md = Docker.md
+		Identity.md = Identity.md
+		Linux.md = Linux.md
 		数据结构.md = 数据结构.md
 	EndProjectSection
 EndProject
@@ -128,7 +129,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorPattern", "Mediator
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyweightPattern", "FlyweightPattern\FlyweightPattern.csproj", "{2436F10C-745E-47F3-8EDC-F665CEA15EA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterPattern", "InterpreterPattern\InterpreterPattern.csproj", "{71DC5148-AC20-47ED-B515-2B4BEA09285C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterpreterPattern", "InterpreterPattern\InterpreterPattern.csproj", "{71DC5148-AC20-47ED-B515-2B4BEA09285C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VistorPattern", "VistorPattern\VistorPattern.csproj", "{E77EE318-DB7D-4462-BFA1-820D3EFC7F6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -284,6 +287,10 @@ Global
 		{71DC5148-AC20-47ED-B515-2B4BEA09285C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71DC5148-AC20-47ED-B515-2B4BEA09285C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71DC5148-AC20-47ED-B515-2B4BEA09285C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E77EE318-DB7D-4462-BFA1-820D3EFC7F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E77EE318-DB7D-4462-BFA1-820D3EFC7F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E77EE318-DB7D-4462-BFA1-820D3EFC7F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E77EE318-DB7D-4462-BFA1-820D3EFC7F6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -329,6 +336,7 @@ Global
 		{C6EF75B5-2743-4A97-9A3B-878A9F76D683} = {F58A6DBD-6FAD-4171-9465-9FEDA8558A11}
 		{2436F10C-745E-47F3-8EDC-F665CEA15EA8} = {870C5017-56D2-448B-95FE-FB577FBF3FBD}
 		{71DC5148-AC20-47ED-B515-2B4BEA09285C} = {F58A6DBD-6FAD-4171-9465-9FEDA8558A11}
+		{E77EE318-DB7D-4462-BFA1-820D3EFC7F6A} = {F58A6DBD-6FAD-4171-9465-9FEDA8558A11}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B79D3D0-8781-4722-9C2B-7667A5385E62}
