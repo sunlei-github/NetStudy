@@ -69,6 +69,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "其他笔记", "其他笔�
 		Identity.md = Identity.md
 		Linux.md = Linux.md
 		数据结构.md = 数据结构.md
+		计算机原理.md = 计算机原理.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GOF", "GOF", "{703104D2-1DD1-49AE-813B-4A6C78F6CC55}"
@@ -163,9 +164,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DistributedTransaction", "D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventBus", "EventBus", "{CC311C31-362D-40C5-8525-0A447026647C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event_Publish", "Event_Publish\Event_Publish.csproj", "{D6113B00-13EB-4475-A22A-CC0F9243C0B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event_Publish", "Event_Publish\Event_Publish.csproj", "{D6113B00-13EB-4475-A22A-CC0F9243C0B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event_Subscription", "Event_Subscription\Event_Subscription.csproj", "{40CFFD1E-627B-47E1-BAAB-EDC4D8998CA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event_Subscription", "Event_Subscription\Event_Subscription.csproj", "{40CFFD1E-627B-47E1-BAAB-EDC4D8998CA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
