@@ -13,5 +13,14 @@
 
 *.dll
 
+#  忽略包文件夹
+packages/
+
+Scripts/
+
+fonts/
+Content/
+*.ico
+
 #  忽略下载的文件目录
 DownloadDirectory/

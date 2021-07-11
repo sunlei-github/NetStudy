@@ -172,7 +172,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SortAlgorithm", "SortAlgori
 		数据结构.md = 数据结构.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortAlgorithmConsole", "SortAlgorithmConsole\SortAlgorithmConsole.csproj", "{BE4B48EA-C24F-4C12-99F4-E2C17BDDA470}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortAlgorithmConsole", "SortAlgorithmConsole\SortAlgorithmConsole.csproj", "{BE4B48EA-C24F-4C12-99F4-E2C17BDDA470}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Quartz", "Quartz", "{BCD1B0B0-16BA-453B-9B5E-BD9B1F9662D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzServer", "QuartzServer\QuartzServer.csproj", "{14EE2106-7E41-4CFB-8FB0-F339A9175F62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetApi", "NetApi", "{B3E2986B-19A6-44BE-8B72-9AA58CBDDE67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api_HttpClient", "Api_HttpClient\Api_HttpClient.csproj", "{3719F4B0-52FF-422F-A422-2E363486ADEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -372,6 +380,14 @@ Global
 		{BE4B48EA-C24F-4C12-99F4-E2C17BDDA470}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE4B48EA-C24F-4C12-99F4-E2C17BDDA470}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE4B48EA-C24F-4C12-99F4-E2C17BDDA470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14EE2106-7E41-4CFB-8FB0-F339A9175F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14EE2106-7E41-4CFB-8FB0-F339A9175F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14EE2106-7E41-4CFB-8FB0-F339A9175F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14EE2106-7E41-4CFB-8FB0-F339A9175F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3719F4B0-52FF-422F-A422-2E363486ADEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3719F4B0-52FF-422F-A422-2E363486ADEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3719F4B0-52FF-422F-A422-2E363486ADEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3719F4B0-52FF-422F-A422-2E363486ADEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -433,6 +449,8 @@ Global
 		{D6113B00-13EB-4475-A22A-CC0F9243C0B5} = {CC311C31-362D-40C5-8525-0A447026647C}
 		{40CFFD1E-627B-47E1-BAAB-EDC4D8998CA3} = {CC311C31-362D-40C5-8525-0A447026647C}
 		{BE4B48EA-C24F-4C12-99F4-E2C17BDDA470} = {CE5EAB1F-99B4-475C-9EC7-A378AA0A3037}
+		{14EE2106-7E41-4CFB-8FB0-F339A9175F62} = {BCD1B0B0-16BA-453B-9B5E-BD9B1F9662D6}
+		{3719F4B0-52FF-422F-A422-2E363486ADEF} = {B3E2986B-19A6-44BE-8B72-9AA58CBDDE67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B79D3D0-8781-4722-9C2B-7667A5385E62}
