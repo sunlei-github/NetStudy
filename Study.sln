@@ -68,7 +68,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "其他笔记", "其他笔�
 		Docker.md = Docker.md
 		Identity.md = Identity.md
 		Linux.md = Linux.md
-		数据结构.md = 数据结构.md
 		计算机原理.md = 计算机原理.md
 	EndProjectSection
 EndProject
@@ -167,6 +166,13 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event_Publish", "Event_Publish\Event_Publish.csproj", "{D6113B00-13EB-4475-A22A-CC0F9243C0B5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event_Subscription", "Event_Subscription\Event_Subscription.csproj", "{40CFFD1E-627B-47E1-BAAB-EDC4D8998CA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SortAlgorithm", "SortAlgorithm", "{CE5EAB1F-99B4-475C-9EC7-A378AA0A3037}"
+	ProjectSection(SolutionItems) = preProject
+		数据结构.md = 数据结构.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortAlgorithmConsole", "SortAlgorithmConsole\SortAlgorithmConsole.csproj", "{BE4B48EA-C24F-4C12-99F4-E2C17BDDA470}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -362,6 +368,10 @@ Global
 		{40CFFD1E-627B-47E1-BAAB-EDC4D8998CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40CFFD1E-627B-47E1-BAAB-EDC4D8998CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40CFFD1E-627B-47E1-BAAB-EDC4D8998CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4B48EA-C24F-4C12-99F4-E2C17BDDA470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4B48EA-C24F-4C12-99F4-E2C17BDDA470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4B48EA-C24F-4C12-99F4-E2C17BDDA470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4B48EA-C24F-4C12-99F4-E2C17BDDA470}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -422,6 +432,7 @@ Global
 		{CC311C31-362D-40C5-8525-0A447026647C} = {81810253-49BA-448C-AA14-E01C560F85E8}
 		{D6113B00-13EB-4475-A22A-CC0F9243C0B5} = {CC311C31-362D-40C5-8525-0A447026647C}
 		{40CFFD1E-627B-47E1-BAAB-EDC4D8998CA3} = {CC311C31-362D-40C5-8525-0A447026647C}
+		{BE4B48EA-C24F-4C12-99F4-E2C17BDDA470} = {CE5EAB1F-99B4-475C-9EC7-A378AA0A3037}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B79D3D0-8781-4722-9C2B-7667A5385E62}
