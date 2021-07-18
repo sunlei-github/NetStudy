@@ -167,9 +167,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event_Publish", "Event_Publ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event_Subscription", "Event_Subscription\Event_Subscription.csproj", "{40CFFD1E-627B-47E1-BAAB-EDC4D8998CA3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SortAlgorithm", "SortAlgorithm", "{CE5EAB1F-99B4-475C-9EC7-A378AA0A3037}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructuresAndAlgorithms", "DataStructuresAndAlgorithms", "{CE5EAB1F-99B4-475C-9EC7-A378AA0A3037}"
 	ProjectSection(SolutionItems) = preProject
-		数据结构.md = 数据结构.md
+		数据结构和算法.md = 数据结构和算法.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortAlgorithmConsole", "SortAlgorithmConsole\SortAlgorithmConsole.csproj", "{BE4B48EA-C24F-4C12-99F4-E2C17BDDA470}"
